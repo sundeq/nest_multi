@@ -1,5 +1,5 @@
 CC=gcc
 CFLAGS=-I
 
-bisectmake: bisect.c
-	$(CC) -o bisect.o bisect.c
+nestmultimake: nest_multi.c
+	$(CC) -o nest_multi.o nest_multi.c
